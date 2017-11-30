@@ -12,7 +12,7 @@ import matplotlib.dates as mdates
 #API Call from Quandl for London Bullion Market Association Gold
 #price data.
 reqst = "https://www.quandl.com/api/v3/datasets/LBMA/GOLD.json?\
-api_key=M1QyxsgkdqHy5WT2Jx5y"
+api_key=YOURAPIKEY"
 call = urllib2.Request(reqst)
 response = urllib2.urlopen(call)
 the_page = response.read()
